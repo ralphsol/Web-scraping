@@ -1,3 +1,7 @@
+'''This script could be used to extract the difference in
+the share prices and the futures price of the top 20 companies
+at the NSE. The prices are taken from NDTV Profit'''
+
 import urllib2
 import re
 from bs4 import BeautifulSoup

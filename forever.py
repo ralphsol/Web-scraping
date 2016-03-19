@@ -1,3 +1,8 @@
+'''This script could be used to extract the difference in
+the current price and the 52 week high price of the top 20
+companies at the BSE.
+The prices are taken from Yahoo Finance'''
+
 import urllib2
 import re
 from bs4 import BeautifulSoup

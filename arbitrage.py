@@ -1,3 +1,7 @@
+'''This script could be used to extract the difference in
+the prices of the top 20 companies at the BSE and the NSE.
+The prices are taken from Yahoo Finance'''
+
 import urllib
 import re
 
